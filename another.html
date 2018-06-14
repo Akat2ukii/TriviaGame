@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>What, Who, Where?</title>
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="assets/javascript/game.js"></script>
+
+    </head>
+    <body>
+        <div id="timer">Timer: 120</div>
+
+        <h1>Animal Trivia?!!</h1>
+
+        <div id="questions" class="content">
+            <br>
+            <form>
+                <p>What is the fastest land mammal?</p>
+                <input id="radio1" type="radio" name="animal1" value=1 > Cheeta<br>
+                <input type="radio" name="animal1" value=0> Lion<br>
+                <input type="radio" name="animal1" value=0> Turtle<br>
+                <input type="radio" name="animal1" value=0> Raptors<br>
+            </form>
+            <br>
+            <form>
+                <p>A peacock is a very colorful bird with beautiful feathers, but what is its female counterpart called?</p>
+                <input type="radio" name="animal2" value=0> A bird<br>
+                <input type="radio" name="animal2" value=0> Pheasant<br>
+                <input type="radio" name="animal2" value=1> Peahen<br>
+                <input type="radio" name="animal2" value=0> Peanun<br>
+            </form>
+            <br>
+            <form>
+                <p>What is a flamingo's natural coloration?</p>
+                <input type="radio" name="animal3" value=0> Pink<br>
+                <input type="radio" name="animal3" value=0> Grey<br>
+                <input type="radio" name="animal3" value=0> Yellow<br>
+                <input type="radio" name="animal3" value=1> White<br>
+            </form>
+            <br>
+            <form>
+                <p>Which of these animals usually have a matriarchy?</p>
+                <input type="radio" name="animal4" value=0> Wolves<br>
+                <input type="radio" name="animal4" value=1> Spotted Hyenas<br>
+                <input type="radio" name="animal4" value=0> Buffalos<br>
+                <input type="radio" name="animal4" value=0> Penguin<br>
+            </form>
+            <br>
+            <form>
+                <p>How far can a shark detect blood within the sea?</p>
+                <input type="radio" name="animal5" value=0> 50 feet<br>
+                <input type="radio" name="animal5" value=0> 1.5 miles<br>
+                <input type="radio" name="animal5" value=0> 250 feet<br>
+                <input type="radio" name="animal5" value=1> 3 miles<br>
+            </form>
+            <br>
+            <form>
+                <p>Why did the zebra get its stripes?</p>
+                <input type="radio" name="animal6" value=1 > As bug repellent<br>
+                <input type="radio" name="animal6" value=0> To hide better<br>
+                <input type="radio" name="animal6" value=0> To attract mates<br>
+                <input type="radio" name="animal6" value=0> To look fashionable<br>
+            </form>
+            <br>
+            <form>
+                <p>What is a group of ferrets called?</p>
+                <input type="radio" name="animal7" value=0> A pride<br>
+                <input type="radio" name="animal7" value=1> A business<br>
+                <input type="radio" name="animal7" value=0> A clan<br>
+                <input type="radio" name="animal7" value=0> A pack
+            </form>
+            <br>
+            <form>
+                <p>What is the color of a giraffes tounge?</p>
+                <input type="radio" name="animal8" value=0> Green<br>
+                <input type="radio" name="animal8" value=0> Pink<br>
+                <input type="radio" name="animal8" value=1> Black<br>
+                <input type="radio" name="animal8" value=0> Orange
+            </form>
+            <br>
+            <form>
+                <p>Which of these "Big Cats" cannot roar?</p>
+                <input type="radio" name="animal9" value=1 > Cheeta<br>
+                <input type="radio" name="animal9" value=0> Lion<br>
+                <input type="radio" name="animal9" value=0> Tiger<br>
+                <input type="radio" name="animal9" value=0> Leopard
+            </form>
+            <br>
+            <form>
+                <p>What is a group of rhinos called?</p>
+                <input type="radio" name="animal10" value=0 > A bash<br>
+                <input type="radio" name="animal10" value=0> A dash<br>
+                <input type="radio" name="animal10" value=1> A crash<br>
+                <input type="radio" name="animal10" value=0> A fash
+            </form>
+            <br>
+            <form>
+                <p>How many bones does a giraffe's neck have?</p>
+                <input type="radio" name="animal11" value=0> 10<br>
+                <input type="radio" name="animal11" value=0> 14<br>
+                <input type="radio" name="animal11" value=0> 23<br>
+                <input type="radio" name="animal11" value=1> 7
+            </form>
+            <br>
+            <form>
+                <p>What do snakes smell with?</p>
+                <input type="radio" name="animal12" value=0 > Their nose<br>
+                <input type="radio" name="animal12" value=0> Their mouth<br>
+                <input type="radio" name="animal12" value=1> Their tounge<br>
+                <input type="radio" name="animal12" value=0> Their tail
+            </form>
+            <br>
+            <form>
+                <p>How many hearts do octopuses have?</p>
+                <input type="radio" name="animal13" value=0 > 8<br>
+                <input type="radio" name="animal13" value=0> 6<br>
+                <input type="radio" name="animal13" value=0> 1<br>
+                <input type="radio" name="animal13" value=1> 3
+            </form>
+            <br>
+            <form>
+                <p>Are you a Dog lover or Cat lover?</p>
+                <input type="radio" name="animal14" value="cat" > Cat<br>
+                <input type="radio" name="animal14" value="dog"> Dog<br>
+                <input type="radio" name="animal14" value="rabbit"> Neither<br>
+                <input type="radio" name="animal14" value="train"> I like trains
+            </form>
+            <br>
+            <button id="button1"><h2>All Finished!</h2></button>
+        </div>
+       
+
+
+
+    </body>
+
+
+
+
+
+
+</html>

@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    background-image: url("../images/animals.jpg")
+}
+#rules{
+    color:white;
+    font-size: 30px;
+    background-color: orange;
+    margin: 0px 650px 0px 650px;
+    line-height:45px;
+    margin-bottom: 20px;
+}
+button {
+    color: black;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-size:30px;
+    text-decoration: none;
+}
+button:hover { 
+    
+    color:orange;
+}
+button:active {
+    color:red;
+}
+#button {
+    color: black;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-size:30px;
+    text-decoration: none;
+}
+#button:hover { 
+    
+    color:orange;
+}
+#button:active {
+    color:red;
+}
+h1{
+    margin-top: 100px;
+    font-size:40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#questions {
+    background-color: white;
+    margin: 0px 650px 0px 650px;
+    font-size: 30px;
+    border-style:solid;
+    border-color:orange;
+    border-width:5px;
+}
+#timer {
+    background-color:black;
+    color: green;
+    font-size:40px;
+    margin: 0px 0px 0px 650px;
+    padding: 0px 210px 0px 210px;
+    position: fixed;
+    top:0px;
+}
+
